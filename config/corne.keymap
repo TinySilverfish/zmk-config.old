@@ -22,7 +22,7 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                ItsJustAToy_layer {
+                0_layer {
                 default { label ="ItsJustAToy"; };
                 
 // -----------------------------------------------------------------------------------------
