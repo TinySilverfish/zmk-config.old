@@ -15,8 +15,9 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                ItsJustAToy: 0_layer {
-                
+                0_layer {
+                label = "ItsJustAToy";                
+          
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  | BKSP |
 // | MO(1)|  A  |  S  |  D  |  F  |  G  |   |  H  |  J  |  K  |  L  |  ;  |  '   |
@@ -32,7 +33,8 @@
                         >;
                 };
                 
-                CantTypeNumbers: 1_layer {
+                1_layer {
+                label = "CantTypeNumbers";
                 
 // -----------------------------------------------------------------------------------------
 // |  ESC |     |PSCRN| SLCK|PAUSE| CAL |   | NUM |  7  |  8  |  9  |  -  | BKSP |
@@ -49,7 +51,8 @@
                         >;
                 };
                 
-                NoArrowKeys: 2_layer {
+                2_layer {
+                label = "NoArrowKeys";
                 
 // -----------------------------------------------------------------------------------------
 // |  ESC |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
@@ -66,7 +69,9 @@
                         >;
                 };
                 
-                INeenFKeys: 3_layer {
+                3_layer {
+                label = "INeedFKeys";
+                
 // -----------------------------------------------------------------------------------------
 // |  F1  |  F2 |  F3 |  F4 |  F5 |  F6 |   |  F7 |  F8 |  F9 | F10 | F11 | F12 |
 // |  F7  |  F8 |  F9 | F10 | F11 | F12 |   | TOG | HUI | SAI | BRI | SPI | EFF |
