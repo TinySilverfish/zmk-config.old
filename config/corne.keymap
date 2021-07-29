@@ -23,6 +23,7 @@
                 compatible = "zmk,keymap";
 
                 ItsJustAToy_layer {
+                default { label ="ItsJustAToy"; };
                 
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  | BKSP |
